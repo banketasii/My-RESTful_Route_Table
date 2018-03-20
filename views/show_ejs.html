@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Show.ejs</title>
+	</head>
+	<body>
+		<h1>SHOW.EJS</h1>
+		<div>
+			&lt;% include ./partials/header %&gt;
+		</div>	
+		<div>
+			&lt;% cat.title %&gt;
+		</div>	
+		<div>
+			&lt;img src="&lt;%= cat.image %&gt;"&gt;&lt;/img&gt;
+		</div>			
+		<div>
+			&lt;%= cat.created.toDateString() %&gt;
+		</div>	
+		<div>
+			&lt;a href="/cats/&lt;%= cat._id %&gt;/edit"&gt;Edit&lt;/a&gt;
+		</div>
+		<div>
+			&lt;form id="delete" action="/cats/&lt;%= cat._id %&gt;?_method=DELETE" method="POST"&gt;
+		</div>	
+		<div>
+			&lt;button&gt;Delete&lt;/button&gt;
+		</div>	
+		<div>
+			&lt;/form&gt;
+		</div>	
+		<div>
+			&lt;% include ./partials/footer %&gt;
+		</div>	
+		<a href="app.html#show">App.js</a>
+		<a href="restful_routes.html">Back to table</a>
+	</body>
+</html>

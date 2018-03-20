@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Edit.ejs</title>
+	</head>
+	<body>
+		<h1>EDIT.EJS</h1>
+		<div>
+			&lt;% include ./partials/header %&gt;
+		</div>
+		<div>
+			&lt;form action="/cats/&lt;%= cat._id %&gt;?_method=PUT" method="POST"&gt;
+		</div>	
+		<div>
+			&lt;label&gt;Title&lt;/label&gt;
+		</div>	
+		<div>
+			&lt;input type="text" name="cat[title]" value="&lt;%= cat.title %&gt;"&gt;
+		</div>
+		<div>
+			&lt;label&gt;Image&lt;/label&gt;
+		</div>	
+		<div>
+			&lt;input type="text" name="cat[image]" value="&lt;%= cat.image %&gt;"&gt;
+		</div>	
+		<div>
+			&lt;input type="submit"&gt;
+		</div>			
+		<div>
+			&lt;/form&gt;
+		</div>
+		<div>
+			&lt;% include ./partials/footer %&gt;
+		</div>	
+		<a href="app.html#edit">App.js</a>
+		<a href="restful_routes.html">Back to table</a>
+	</body>
+</html>
