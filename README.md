@@ -10,6 +10,7 @@
   * Mongoose
   * Node
   * Mongodb
+  * Semantic UI CSS framework
   * Other techs to be listed
 
 - Completed
