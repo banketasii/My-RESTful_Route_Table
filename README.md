@@ -18,10 +18,10 @@
   * header.ejs
   * footer.ejs
   * index.ejs
+  * new.ejs
  
 - Not Completed
-  * app.js => routes need to be coded for the below files
-  * new.ejs
+  * app.js => routes need to be coded for the below files  
   * show.ejs
   * edit.ejs
   * styling for the above files
