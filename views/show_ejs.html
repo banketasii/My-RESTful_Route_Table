@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Show.ejs</title>
+		<title>SHOW&#46;EJS</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
 	<body>
-		<h1>SHOW.EJS</h1>
-		<div>
-			&lt;% include ./partials/header %&gt;
-		</div>	
-		<div>
-			&lt;% cat.title %&gt;
-		</div>	
-		<div>
-			&lt;img src="&lt;%= cat.image %&gt;"&gt;&lt;/img&gt;
-		</div>			
-		<div>
-			&lt;%= cat.created.toDateString() %&gt;
-		</div>	
-		<div>
-			&lt;a href="/cats/&lt;%= cat._id %&gt;/edit"&gt;Edit&lt;/a&gt;
-		</div>
-		<div>
-			&lt;form id="delete" action="/cats/&lt;%= cat._id %&gt;?_method=DELETE" method="POST"&gt;
-		</div>	
-		<div>
-			&lt;button&gt;Delete&lt;/button&gt;
-		</div>	
-		<div>
-			&lt;/form&gt;
-		</div>	
-		<div>
-			&lt;% include ./partials/footer %&gt;
-		</div>	
-		<a href="app.html#show">App.js</a>
-		<a href="restful_routes.html">Back to table</a>
+    <div class="container">
+      <div class="jumbotron"><h1>SHOW&#46;EJS</h1></div>
+    </div> <!-- Close container -->    
+    <div class="container">
+      <div><code>&lt;&#37; include &#46;/partials/header &#37;&gt;</code></div>	
+      <div><code>&lt;&#37; include &#46;/partials/footer &#37;&gt;</code></div>	
+      <p></p>
+      <a class="btn btn-med btn-warning" href="../app_js.html#show">Back to APP&#46;JS</a>
+      <a class="btn btn-med btn-success" href="../restful_routes.html">Back to table</a>
+    </div> <!-- Close container -->
 	</body>
 </html>

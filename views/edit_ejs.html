@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Edit.ejs</title>
+		<title>EDIT&#46;EJS</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
 	<body>
-		<h1>EDIT.EJS</h1>
-		<div>
-			&lt;% include ./partials/header %&gt;
-		</div>
-		<div>
-			&lt;form action="/cats/&lt;%= cat._id %&gt;?_method=PUT" method="POST"&gt;
-		</div>	
-		<div>
-			&lt;label&gt;Title&lt;/label&gt;
-		</div>	
-		<div>
-			&lt;input type="text" name="cat[title]" value="&lt;%= cat.title %&gt;"&gt;
-		</div>
-		<div>
-			&lt;label&gt;Image&lt;/label&gt;
-		</div>	
-		<div>
-			&lt;input type="text" name="cat[image]" value="&lt;%= cat.image %&gt;"&gt;
-		</div>	
-		<div>
-			&lt;input type="submit"&gt;
-		</div>			
-		<div>
-			&lt;/form&gt;
-		</div>
-		<div>
-			&lt;% include ./partials/footer %&gt;
-		</div>	
-		<a href="app.html#edit">App.js</a>
-		<a href="restful_routes.html">Back to table</a>
+    <div class="container">
+      <div class="jumbotron"><h1>EDIT&#46;EJS</h1></div>
+    </div> <!-- Close container -->    
+    <div class="container">
+      <div><code>&lt;&#37; include &#46;/partials/header &#37;&gt;</code></div>	
+      <div><code>&lt;&#37; include &#46;/partials/footer &#37;&gt;</code></div>	
+      <p></p>
+      <a class="btn btn-med btn-warning" href="../app_js.html#edit">Back to APP&#46;JS</a>
+      <a class="btn btn-med btn-success" href="../restful_routes.html">Back to table</a>
+    </div> <!-- Close container -->
 	</body>
 </html>
