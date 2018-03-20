@@ -13,10 +13,10 @@
   * Other techs to be listed
 
 - Completed
- * Table
- * header.ejs
- * footer.ejs
- * index.ejs
+  * Table
+  * header.ejs
+  * footer.ejs
+  * index.ejs
  
 - Not Completed
  * app.js => routes need to be coded for the below files
