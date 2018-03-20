@@ -23,3 +23,4 @@
  - new.ejs
  - show.ejs
  - edit.ejs
+ - styling for the above files
