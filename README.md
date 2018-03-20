@@ -29,9 +29,9 @@
 4. index.ejs
 5. new.ejs
 6. Routes:
-  * index
-  * new
-  * create
+   * index
+   * new
+   * create
   
  
 - Not Completed
@@ -40,8 +40,8 @@
 3. edit.ejs
 4. styling for the above files
 5. Routes:
-  * show
-  * edit
-  * update
-  * destroy
+   * show
+   * edit
+   * update
+   * destroy
   
