@@ -12,15 +12,15 @@
   * Mongodb
   * Other techs to be listed
 
-* Completed
- - Table
- - header.ejs
- - footer.ejs
- - index.ejs
+- Completed
+ * Table
+ * header.ejs
+ * footer.ejs
+ * index.ejs
  
-* Not Completed
- - app.js => routes need to be coded for the below files
- - new.ejs
- - show.ejs
- - edit.ejs
- - styling for the above files
+- Not Completed
+ * app.js => routes need to be coded for the below files
+ * new.ejs
+ * show.ejs
+ * edit.ejs
+ * styling for the above files
