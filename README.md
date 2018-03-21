@@ -13,34 +13,33 @@
 - Adding test file to view for examples of each route.
 - Adding files attached to each route.
 - Example app is based off of an app using
-1. Express
-2. Ejs
-3. Mongoose
-4. Node
-5. Mongodb
-6. Semantic UI CSS framework
-7. Other techs to be listed
+* Express
+* Ejs
+* Mongoose
+* Node
+* Mongodb
+* Semantic UI CSS framework
+* Other techs to be listed
   
 
 - Completed
-1. Table
-2. header.ejs
-3. footer.ejs
-4. index.ejs
-5. new.ejs
-6. Routes:
+* Table
+* header.ejs
+* footer.ejs
+* index.ejs
+* new.ejs
+* show.ejs
+* Routes:
    * index
    * new
    * create
   
  
 - Not Completed
-1. app.js => routes need to be coded for the below files  
-2. show.ejs
-3. edit.ejs
-4. styling for the above files
-5. Routes:
-   * show
+* app.js => routes need to be coded for the below files  
+* edit.ejs
+* styling for the above files
+* Routes:
    * edit
    * update
    * destroy
