@@ -20,7 +20,7 @@
   * Mongo - Database
   * Semantic UI CSS framework
   * Method-Override - Used to support PUT and DELETE requests
-  * Express-Sanitize - Used to prevent harmful scripts from running  
+  * Express-Sanitizer - Used to prevent harmful scripts from running  
 
 - Completed
   * Table
