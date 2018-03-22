@@ -31,17 +31,16 @@
   * new.ejs
   * show.ejs
   * edit.ejs
+  * app.css
   * Routes:
     * index
     * new
     * create
     * edit
     * update
+    * destroy
   
  
 - Not Completed
-  * app.js => routes need to be coded for the below files    
-  * styling for the above files
-  * Routes:    
-    * destroy
+  * app.js => add code to sanitize html     
   
