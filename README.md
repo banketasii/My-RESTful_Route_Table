@@ -13,12 +13,13 @@
 - Adding test file to view for examples of each route.
 - Adding files attached to each route.
 - Example app is based off of an app using
-  * Express
-  * Ejs
-  * Mongoose
-  * Node
-  * Mongodb
+  * Express - Web framework
+  * Ejs - Allows embedded js in html
+  * Mongoose - Allows easier access to Mongo
+  * Node - Runs the server
+  * Mongo - Database
   * Semantic UI CSS framework
+  * Method-Override - Used to support PUT and DELETE requests
   * Other techs to be listed
   
 
@@ -29,18 +30,18 @@
   * index.ejs
   * new.ejs
   * show.ejs
+  * edit.ejs
   * Routes:
     * index
     * new
     * create
+    * edit
+    * update
   
  
 - Not Completed
-  * app.js => routes need to be coded for the below files  
-  * edit.ejs
+  * app.js => routes need to be coded for the below files    
   * styling for the above files
-  * Routes:
-    * edit
-    * update
+  * Routes:    
     * destroy
   
