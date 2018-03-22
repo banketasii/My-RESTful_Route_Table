@@ -20,11 +20,11 @@
   * Mongo - Database
   * Semantic UI CSS framework
   * Method-Override - Used to support PUT and DELETE requests
-  * Other techs to be listed
-  
+  * Express-Sanitize - Used to prevent harmful scripts from running  
 
 - Completed
   * Table
+  * app.js
   * header.ejs
   * footer.ejs
   * index.ejs
@@ -39,8 +39,7 @@
     * edit
     * update
     * destroy
-  
+  * Code to sanitize the input for malicious scripts
  
-- Not Completed
-  * app.js => add code to sanitize html     
+- Not Completed  
   
